@@ -1,0 +1,35 @@
+# -*- mode: sh -*-
+
+# sourced by make_release.sh
+
+MAKE_ARGS="-j 4"
+
+function postbuild()
+{
+    TARGETS=$@
+    
+    cd $BUILD_DIR_RELEASE
+    make install
+    for T in $TARGETS; do
+        make $T
+    done
+    cd -
+    copy_packages $BUILD_DIR_RELEASE
+}
+
+function do_build()
+{
+    prepare_deb_build 2.5
+    build_c_base
+    build_python_base
+    build_java_base
+    postbuild deb-all PACKAGE_source PACKAGE_source_all PACKAGE_apitests
+    
+    prepare_deb_build 2.4
+    build_python_base
+    postbuild deb-py
+
+    prepare_deb_build 2.6
+    build_python_base
+    postbuild deb-py
+}

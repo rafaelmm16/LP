@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1573633662 source:d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalho-keicila-carla-everton\cliente.cpp
+	"excecoes.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1573633662 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalho-keicila-carla-everton\excecoes.h
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<ctime>
+	<fstream>
+
+1514140574 source:d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalho-keicila-carla-everton\main.cpp
+	<iostream>
+

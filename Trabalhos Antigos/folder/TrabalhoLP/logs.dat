@@ -1,0 +1,16 @@
+CODIGO:1          DATA:5/11/2019          HORA:11:49:1          ERRO:ERRO - Divisão por Zero!
+CODIGO:2          DATA:5/11/2019          HORA:11:49:8          ERRO:ERRO - Raiz Negativa!
+CODIGO:3          DATA:5/11/2019          HORA:11:49:11          ERRO:ERRO - Nao e Digito!
+CODIGO:4          DATA:5/11/2019          HORA:11:49:16          ERRO:ERRO - Nao e caracter!
+CODIGO:5          DATA:6/11/2019          HORA:1:9:35          ERRO:ERRO - Nao e caracter!
+CODIGO:5          DATA:6/11/2019          HORA:1:9:54          ERRO:ERRO - Nao e caracter!
+CODIGO:5          DATA:12/11/2019          HORA:10:50:58          ERRO:ERRO - Nao e uma data valida!
+CODIGO:1          DATA:12/11/2019          HORA:11:40:30          ERRO:ERRO - Divisão por Zero!
+CODIGO:1          DATA:12/11/2019          HORA:11:40:52          ERRO:ERRO - Divisão por Zero!
+CODIGO:3          DATA:12/11/2019          HORA:11:41:50          ERRO:ERRO - Nao e Digito!
+CODIGO:4          DATA:12/11/2019          HORA:11:41:56          ERRO:ERRO - Nao e caracter!
+CODIGO:5          DATA:12/11/2019          HORA:11:42:8          ERRO:ERRO - Nao e uma data valida!
+CODIGO:2          DATA:12/11/2019          HORA:11:42:21          ERRO:ERRO - Raiz Negativa!
+CODIGO:1          DATA:12/11/2019          HORA:11:42:27          ERRO:ERRO - Divisão por Zero!
+CODIGO:1          DATA:12/11/2019          HORA:11:43:21          ERRO:ERRO - Divisão por Zero!
+CODIGO:1          DATA:12/11/2019          HORA:11:45:35          ERRO:ERRO - Divisão por Zero!

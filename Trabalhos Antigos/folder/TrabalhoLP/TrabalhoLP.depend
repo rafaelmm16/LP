@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1574802210 source:d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\cliente.cpp
+	"excecoes.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1574802209 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\excecoes.h
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<ctime>
+	<fstream>
+	<bitset>
+	<typeinfo>
+
+1574710051 source:d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\testepdf.cpp
+	<iostream>
+	<iostream>
+	<string.h>
+	<exception>
+	<stdexcept>
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	"jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\api.h"
+
+1574710304 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\api.h
+	"detail\capi.h"
+	"detail\errcodes.h"
+	"detail\version.h"
+	"detail\cppapi.h"
+
+1574710333 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\capi.h
+	"c_prologue.h"
+
+1574710350 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\c_prologue.h
+	"types.h"
+
+1574710368 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\types.h
+	"config.h"
+
+1573633662 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\config.h
+
+1574710378 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\errcodes.h
+	"types.h"
+
+1574710386 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\version.h
+	"types.h"
+
+1573633662 d:\estudos e faculdade\)))ceunes\lp - linguagem de programação\trabalholp\jagpdf-1.4.0.win32.x86.c_cpp\include\jagpdf\detail\cppapi.h
+	<jagpdf/detail/cpp_prologue.h>
+

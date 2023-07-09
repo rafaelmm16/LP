@@ -1,0 +1,49 @@
+# -*- mode: sh -*-
+
+
+function deb_postbuild()
+{
+    TARGETS=$@
+    
+    cd $BUILD_DIR_RELEASE
+    make install
+    for T in $TARGETS; do
+        make $T
+    done
+    cd -
+    copy_packages $BUILD_DIR_RELEASE
+}
+
+function do_build()
+{
+    # build .deb
+    prepare_deb_build 2.5
+    build_c_base
+    build_python_base
+    build_java_base
+    deb_postbuild deb-all PACKAGE_source PACKAGE_source_all PACKAGE_apitests
+    
+    prepare_deb_build 2.4
+    build_python_base
+    deb_postbuild deb-py
+
+    prepare_deb_build 2.6
+    build_python_base
+    deb_postbuild deb-py
+
+
+    #build all-in-one
+    create_build_dir 2.5
+    build_c
+    build_python
+    build_java
+    copy_packages $BUILD_DIR_RELEASE
+    
+    create_build_dir 2.4
+    build_python
+    copy_packages $BUILD_DIR_RELEASE
+    
+    create_build_dir 2.6
+    build_python
+    copy_packages $BUILD_DIR_RELEASE
+}
